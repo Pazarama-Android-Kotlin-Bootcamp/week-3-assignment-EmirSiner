@@ -27,7 +27,6 @@ class ListFragment : Fragment(), CoinLister {
 
 
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
@@ -45,6 +44,7 @@ class ListFragment : Fragment(), CoinLister {
     }
 
     override fun onClicked(coin: CoinData) {
+        //içindeki verileri navigation yardımıyla detail fragmenta atıyor
         navController.navigate(ListFragmentDirections.actionListFragmentToDetailFragment(coin))
     }
 

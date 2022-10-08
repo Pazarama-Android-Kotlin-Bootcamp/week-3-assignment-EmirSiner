@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/listFragment">
-
+    <!--fragmentlar arası veri göndermek için
+                   -->
     <fragment
         android:id="@+id/listFragment"
         android:name="com.example.ui.fragment.ListFragment"
@@ -19,6 +20,9 @@
         android:name="com.example.ui.fragment.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
+        <!--gönderme işlemlerini navgraph xml üzerinden yapıyoruz coinData klasörünün içindeki verileri gönderiyorum.
+       Xml de yorum satırı böyle yapılıyor.
+       -->
         <argument
             android:name="coinData"
             app:argType="com.example.ui.mockdata.CoinData" />

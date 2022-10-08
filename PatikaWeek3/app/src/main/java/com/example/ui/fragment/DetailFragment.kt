@@ -14,9 +14,11 @@ import com.example.ui.mockdata.CoinData
 
 
 class DetailFragment : Fragment() {
+    //Fragmenttan önce gelen verileri ayağa kaldırıyoruz
     private lateinit var twCoinName: TextView
     private lateinit var twCoinprice: TextView
     private lateinit var twImageView: ImageView
+    //argüments ile dataları aldık
     private val args by navArgs<DetailFragmentArgs>()
 
     override fun onCreateView(

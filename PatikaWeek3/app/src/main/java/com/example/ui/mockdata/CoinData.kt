@@ -15,12 +15,13 @@ data class CoinData(
 
 ) : Parcelable
 
-
+//atılacak dosyaları kendim yazdım.
 val coinListData = mutableListOf<CoinData>(
     CoinData(
         "1",
         "Bitcoin",
         "100$",
+        //R.drawable drawable klasöründen image çekmek için kullandım.
        R.drawable.bitcoin
     ),
     CoinData(
