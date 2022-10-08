@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PatikaWeek3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imgView" />
+    <string name="textview">TextView</string>
+    <string name="aktar">aktar</string>
+    <string name="coinimage">coinImage</string>
+    <string name="coinname">coinName</string>
+    <string name="coinprice">coinPrice</string>
+    <string name="id">Id</string>
+    <string name="todo">TODO</string>
+</resources>
